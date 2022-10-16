@@ -45,7 +45,7 @@ function enviandoEmail(){
     console.log("entrei aqui");
     cadastrarProduto();
 
-    let delay = 6200;
+    let delay = 6500;
     let url = "./index.html";
     setTimeout(function(){
         location = url;
