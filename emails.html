@@ -16,23 +16,28 @@
     <a href="index.html"><button type="submit">Voltar</button></a>
 
 
-
     <input type="date" name="date" id="date">
-    <button type="submit">Filtrar por data</button>
-
+    <button type="submit" onclick="filtroPorData()" id="filtro" value="">Filtrar por data</button>
 
     <table id="tabelaEmail">
-        <th>Status Email</th>
-        <th>Destinatario</th>
-        <th>Titulo</th>
-        <th>Data de envio</th>
-
-        <tr>
-            <td>Send</td>
-            <td>brunoberga77@gmail.com</td>
-            <td>Teste Front</td>
-            <td>2022-10-15</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Status Email</th>
+                <th>Destinatario</th>
+                <th>Titulo</th>
+                <th>Texto</th>
+                <th>Data de envio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>SEND</td>
+                <td>Eu</td>
+                <td>Teste</td>
+                <td>Teste</td>
+                <td>hoje</td>
+            </tr>
+        </tbody>
     </table>
     
 
